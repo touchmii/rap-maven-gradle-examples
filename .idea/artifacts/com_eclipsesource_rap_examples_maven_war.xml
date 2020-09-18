@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.eclipsesource.rap.examples.maven:war">
+    <output-path>$PROJECT_DIR$/com.eclipsesource.rap.examples.maven/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>com.eclipsesource.rap.examples.maven</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="com.eclipsesource.rap.examples.maven-1.1.0.war">
+      <element id="artifact" artifact-name="com.eclipsesource.rap.examples.maven:war exploded" />
+    </root>
+  </artifact>
+</component>
